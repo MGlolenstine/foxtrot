@@ -13,3 +13,7 @@ installer/
 Trunk.toml
 
 trace-*.json
+
+# Nix ignore
+/.direnv
+/result
