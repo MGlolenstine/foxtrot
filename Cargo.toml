@@ -100,7 +100,8 @@ image = { version = "0.24", default-features = false }
 embed-resource = "1.4"
 
 [patch.crates-io]
-leafwing-input-manager = { git = "https://github.com/Leafwing-Studios/leafwing-input-manager.git", rev = "282b8a987b405dc382a151ae60462814c83d6d1e" }
+# leafwing-input-manager = { git = "https://github.com/Leafwing-Studios/leafwing-input-manager.git", rev = "282b8a987b405dc382a151ae60462814c83d6d1e" }
+leafwing-input-manager = { git = "https://github.com/Leafwing-Studios/leafwing-input-manager.git", rev = "fb88b4d90bbf632e9b57d416e0dfd943440b732c" }
 bevy_asset_loader = { git = "https://github.com/NiklasEi/bevy_asset_loader.git", rev = "be7f9005db76224912a06742ed521557262b50fe" } # Collections as maps feature
 bevy_editor_pls = { git = "https://github.com/jakobhellermann/bevy_editor_pls", rev = "6062b860aea87034081399369fd7ef5715f13256" } # Smaller bug fixes
 # bevy_hanabi = { git = "https://github.com/janhohenheim/bevy_hanabi" } # https://github.com/djeedai/bevy_hanabi/issues/144
