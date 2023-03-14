@@ -12,7 +12,7 @@ jobs:
           lfs: true
       - name: Check out LFS objects
         run: |
-          git lfs pull  
+          git lfs install --skip-smudge
       - uses: cachix/install-nix-action@v12
       - name: Building package
         run: nix-build . -A defaultPackage.x86_64-linux
